@@ -4,11 +4,15 @@ console.log('****** Array Practice *******');
 console.log('--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
-let animalArray = [`fish, cat, bird, dog `];
+let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log(`Animals are: ${animalArray}`);
+//I added this array to the console so I could see how it would display. I tried
+//using back ticks to make correct spacing but that affected how an array would
+//display when using an array's index to console log a value, like in quesions
+//3a-3c. (see wk3 part 3 html, I included this in my questions...)
 
 // 1.a. TODO: Make an array with some favorite foods
-let favoriteFoods = [`pizza, filipino food, steak `];
+let favoriteFoods = ['pizza', 'filipino food', 'steak'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
@@ -27,13 +31,13 @@ console.log(`Number of foods: ${favoriteFoods.length}`);
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log(`First animal is ${animalArray[0]}`)
+console.log(`First animal is ${animalArray[0]}`);
 
 // 3.a. TODO: Log the second animal in the array
-console.log(`Second animal is ${animalArray[1]}`)
+console.log(`Second animal is ${animalArray[1]}`);
 
 // 3.b. TODO: Log the last animal in the array using it's array index
-console.log(`Last animal is ${animalArray[3]}`)
+console.log(`Last animal is ${animalArray[3]}`);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
